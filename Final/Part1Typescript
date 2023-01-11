@@ -1,0 +1,17 @@
+Script started on 2022-02-10 16:35:01-0600
+]0;nmhomshe@turing: ~/java/shortnmhomshe@turing:~/java/short$ jaca[K[Kvac DB.java
+]0;nmhomshe@turing: ~/java/shortnmhomshe@turing:~/java/short$ java DB
+Please enter the name of the file (No extention): 
+
+
+Short
+Record number: 0
+Id:     100654, State:              Alabama, City:           Huntsville, School Name:                            Alabama_A&M_University
+Record number: 5
+Id:     100760, State:              Alabama, City:       Alexander_City, School Name:                 Central_Alabama_Community_College
+Record number: 9
+Id:     100937, State:              Alabama, City:           Birmingham, School Name:                       Birmingham-Southern_College
+]0;nmhomshe@turing: ~/java/shortnmhomshe@turing:~/java/short$ exit
+exit
+
+Script done on 2022-02-10 16:35:31-0600

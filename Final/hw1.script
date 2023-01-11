@@ -1,0 +1,437 @@
+Script started on 2022-02-10 02:11:22-0600
+
+TESTING CREATE DATABASE
+
+jp081@turing: ~/Assignment1 ls
+DB.java  Record.java  UpdatedWindowsCsv.csv
+jp081@turing: ~/Assignment1 javac *.java
+jp081@turing: ~/Assignment1 ls
+DB.class  DB.java  Record.class  Record.java  UpdatedWindowsCsv.csv
+jp081@turing: ~/Assignment1 java DB
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+1
+Create a Database
+Please enter the name of the file (No extention): 
+
+
+UpdatedWindowsCsv
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+9
+Quitting
+jp081@turing: ~/Assignment1 ls
+DB.class      Record.java               UpdatedWindowsCsv.csv
+DB.java       typescript                UpdatedWindowsCsv.data
+Record.class  UpdatedWindowsCsv.config  UpdatedWindowsCsv.overflow
+jp081@turing: ~/Assignment1 java DB
+
+TESTING OPEN AND DISPLAY RECORDS
+
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+4
+Display a Record
+No database open.
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+2
+Open a Database
+Please enter the name of the file (No extention): 
+
+
+UpdatedWindowsCsv
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+4
+Display a Record
+Enter the Id you want to find: 100654
+Record found: Id:     100654, State:              Alabama, City:           Huntsville, School Name:                                                Alabama_A&M_University
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+4
+Display a Record
+Enter the Id you want to find: 100706
+Record found: Id:     100706, State:              Alabama, City:           Huntsville, School Name:                                   University_of_Alabama_in_Huntsville
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+4
+Display a Record
+Enter the Id you want to find: 100724
+Record found: Id:     100724, State:              Alabama, City:           Montgomery, School Name:                                              Alabama_State_University
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+4
+Display a Record
+Enter the Id you want to find: 100800
+Record does not exist
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+7
+
+TESTING ADD AND UPDATE
+
+Add a new Record
+ Enter the ID you want to add: 110405
+ Enter the state you want to add: Califonia
+ Enter the city you want to add: Pasadena
+ Enter the name you want to add: University of People
+ Record Added Successfully
+ There are now 1 record in Overflow
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+4
+Display a Record
+Enter the Id you want to find: 110405
+Record found: Id:     110405, State:             Califonia, City:         Pasadena, School Name:                                                  University_of_People
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+5
+Update a Record
+Enter the ID you want to update
+110405
+Record found: Id:     110405, State:             Arkansas, City:         Fayetteville, School Name:                                                  University_of_People
+ Which of the following list you want to update
+ 1. state 
+2. city 
+3. name 
+4. quit 
+3
+ Enter the new  School name 
+University Of The People
+School Name Updated Successfully
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+4
+Display a Record
+Enter the Id you want to find: 110405
+Record found: Id:     110405, State:             Arkansas, City:         Fayetteville, School Name:                                              University_Of_The_People
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+7
+
+TESTING OVERFLOWS
+
+Add a new Record
+ Enter the ID you want to add: 102650
+ Enter the state you want to add: Minnesota
+ Enter the city you want to add: Minneapolis
+ Enter the name you want to add: Institute Of Production And Recording
+ Record Added Successfully
+ There are now 2 record in Overflow
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+7
+Add a new Record
+ Enter the ID you want to add: 110636
+ Enter the state you want to add: Pennsylvania
+ Enter the city you want to add: Harrisburg
+ Enter the name you want to add: Harrisburg University Of Science And Technology
+ Record Added Successfully
+ There are now 3 record in Overflow
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+7
+Add a new Record
+ Enter the ID you want to add: 110400
+ Enter the state you want to add: Indiana
+ Enter the city you want to add: Jeffersonville
+ Enter the name you want to add: Ottawa University-Jeffersonville
+ Record Added Successfully
+ There are now 4 record in Overflow
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+4
+Display a Record
+Enter the Id you want to find: 102650
+Record found: Id:     102650, State:                Minnesota, City:               Minneapolis, School Name:                                 Institute_Of_Production_And_Recording
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+4
+Display a Record
+Enter the Id you want to find: 110636
+Record found: Id:     110636, State:             Pennsylvania, City:           Harrisburg, School Name:                       Harrisburg_University_Of_Science_And_Technology
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+4
+Display a Record
+Enter the Id you want to find110400
+Record found: Id:     110400, State:              Indiana, City:       Jeffersonville, School Name:                                      Ottawa_University-Jeffersonville
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+8
+
+TESTING DELETE
+
+Delete a Record
+Enter the Id you want to delete
+110413
+Record Deleted Successfully
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+8
+Delete a Record
+Enter the Id you want to delete
+102650
+Record Deleted Successfully
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+4
+Display a Record
+Enter the Id you want to find: 110413
+Record found: Id:     110413, State:                   NA, City:                   NA, School Name:                                                                    NA
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+4
+Display a Record
+Enter the Id you want to find: 102650
+Record found: Id:     110413, State:                   NA, City:                   NA, School Name:                                                                    NA
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+6
+
+TESTING CREATE REPORT
+
+Creating report
+Top 10 list are as follows: 
+Id:     100654, State:              Alabama, City:           Huntsville, School Name:                                                Alabama_A&M_University
+Id:     100663, State:              Alabama, City:           Birmingham, School Name:                                   University_of_Alabama_at_Birmingham
+Id:     100706, State:              Alabama, City:           Huntsville, School Name:                                   University_of_Alabama_in_Huntsville
+Id:     110405, State:             Arkansas, City:         Fayetteville, School Name:                                              University_Of_The_People
+Id:     100751, State:              Alabama, City:           Tuscaloosa, School Name:                                                 University_of_Alabama
+Id:     100760, State:              Alabama, City:       Alexander_City, School Name:                                     Central_Alabama_Community_College
+Id:     100812, State:              Alabama, City:               Athens, School Name:                                               Athens_State_University
+Id:     100830, State:              Alabama, City:           Montgomery, School Name:                                       Auburn_University_at_Montgomery
+Id:     100858, State:              Alabama, City:               Auburn, School Name:                                                     Auburn_University
+Id:     100937, State:              Alabama, City:           Birmingham, School Name:                                           Birmingham-Southern_College
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+3
+
+TESTING CLOSE DATABASE
+
+Close a Database
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+4
+Display a Record
+No database open.
+
+QUIT
+
+Choose one of the following menu 
+1. Create a New Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit/n
+9
+Quitting
+jp081@turing:~/Assignment1$ exit
+exit
+Script done, file is typescript
+jp081@turing:~/Assignment1$
